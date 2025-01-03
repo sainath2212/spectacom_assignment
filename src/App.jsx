@@ -1,5 +1,5 @@
 import CarouselComponent from "./components/Carousel";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Carrer from "./sections/Carrer";
 import Contact from "./sections/Contact";
 import Features from "./sections/Features";
