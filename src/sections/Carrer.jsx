@@ -44,12 +44,14 @@ function Carrer() {
 
   return (
     <div className="py-16 px-10">
-      <h1 className="text-center text-[50px] font-semibold leading-[120%] text-[#b89840] font-[Titillium Web, sans-serif] !important">
+      <h1 className="text-center text-4xl sm:text-5xl font-semibold leading-tight text-[#b89840] font-[Titillium Web, sans-serif]">
         Carrer
       </h1>
       <div>
-        <h1 className="text-[20px] text-center">We Love Mondays!</h1>
-        <p className=" text-[18px] leading-[30px] text-[#757575] tracking-[.6px] font-light font-roboto text-center">
+        <h1 className="text-xl sm:text-2xl text-center text-[#333] font-semibold mb-4">
+          We Love Mondays!
+        </h1>
+        <p className="text-base sm:text-lg leading-relaxed text-[#757575] tracking-wide font-light font-roboto text-center mb-8 px-4">
           No seriously, we do. Because we are committed to building the world's
           best health & fitness platform, right here in our Gurgaon offices. In
           true startup mode, we are looking to put together our A-team. Simply
@@ -59,9 +61,11 @@ function Carrer() {
           entrepreneurial spirit and are leaders.
         </p>
       </div>
-      <h1 className="text-[20px] text-center">Benefits</h1>
+      <h1 className="text-xl sm:text-2xl text-center font-semibold text-[#333] my-6">
+        Benefits
+      </h1>
 
-      <div className="h-fit p-10">
+      <div className="h-fit p-8 sm:p-10">
         <Carousel
           swipeable={false}
           draggable={false}
@@ -80,64 +84,66 @@ function Carrer() {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
         >
-          <div className="border rounded-lg p-4 w-full h-full border-black bg-white shadow-md ">
-            <p className="text-lg font-bold mb-2">Content Creator</p>
+          <div className="border rounded-lg p-6 sm:p-8 w-full bg-white border-gray-300 shadow-lg transition transform hover:scale-105 duration-300">
+            <p className="text-lg sm:text-xl font-semibold mb-3 text-[#333]">
+              Content Creator
+            </p>
             <p className="text-sm text-gray-600 flex items-center mb-3">
               Gurugram
             </p>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">
               Are you a fitness influencer? Are you a content creator? Or do you
               simply love making reels? A Video Creator at Devils ...
             </p>
             <a
               href="#"
-              className="text-black font-bold text-sm hover:underline flex items-center"
+              className="text-[#b89840] font-bold text-sm hover:underline flex items-center mt-2"
             >
               More Details →
             </a>
           </div>
 
-          <div className="border rounded-lg p-4 w-full bg-white border-black">
-            <p className="text-lg font-bold mb-2">
+          <div className="border rounded-lg p-6 sm:p-8 w-full bg-white border-gray-300 shadow-lg transition transform hover:scale-105 duration-300">
+            <p className="text-lg sm:text-xl font-semibold mb-3 text-[#333]">
               Director - Alliances & Partnerships
             </p>
             <p className="text-sm text-gray-600 flex items-center mb-3">
               Gurugram
             </p>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">
               This role is designed to focus on delivering revenue generation
               via brand collaborations. The candidate would have to...
             </p>
             <a
               href="#"
-              className="text-black font-bold text-sm hover:underline flex items-center"
+              className="text-[#b89840] font-bold text-sm hover:underline flex items-center mt-2"
             >
               More Details →
             </a>
           </div>
 
-          <div className="border rounded-lg p-4 w-full border-black bg-white shadow-md m">
-            <p className="text-lg font-bold mb-2">
+          <div className="border rounded-lg p-6 sm:p-8 w-full bg-white border-gray-300 shadow-lg transition transform hover:scale-105 duration-300">
+            <p className="text-lg sm:text-xl font-semibold mb-3 text-[#333]">
               Performance Marketing Manager
             </p>
             <p className="text-sm text-gray-600 flex items-center mb-3">
               Gurugram
             </p>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-600 mb-4 leading-relaxed">
               We are seeking a highly skilled and results-oriented Performance
               Marketer to join our dynamic marketing team. The ideal ...
             </p>
             <a
               href="#"
-              className="text-black font-bold text-sm hover:underline flex items-center"
+              className="text-[#b89840] font-bold text-sm hover:underline flex items-center mt-2"
             >
               More Details →
             </a>
           </div>
         </Carousel>
-        <p>
-          *Please send your CV at{" "}
-          <span className="text-[#b89840]"> hr@spectacom.in</span>
+        <p className="text-center mt-6 text-sm sm:text-base">
+          *Please send your CV to{" "}
+          <span className="text-[#b89840]">hr@spectacom.in</span>
         </p>
       </div>
     </div>
