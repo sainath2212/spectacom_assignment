@@ -32,7 +32,7 @@ const CarouselComponent = (props) => {
       ssr={true}
       infinite={true}
       autoPlay={props.deviceType !== "mobile"}
-      autoPlaySpeed={1000}
+      autoPlaySpeed={2000}
       keyBoardControl={true}
       customTransition="transform 0.5s ease-in-out"
       transitionDuration={500}
